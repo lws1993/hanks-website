@@ -34,7 +34,7 @@ def checkout(request):
             "street_address_2": request.POST["street_address_2"],
             "town_or_city": request.POST["town_or_city"],
             "county": request.POST["county"],
-            "eircode": request.POST["eircode"],
+            "postcode": request.POST["postcode"],
             "country": request.POST["country"],
         }
         order_form = OrderForm(form_data)
@@ -106,7 +106,7 @@ def checkout(request):
                     "street_address_2": user_profile.user_street_address_2,
                     "town_or_city": user_profile.user_town_or_city,
                     "county": user_profile.user_county,
-                    "eircode": user_profile.user_eircode,
+                    "postcode": user_profile.user_postcode,
                     "country": user_profile.user_country,
                 })
             except UserProfile.DoesNotExist:
@@ -145,7 +145,7 @@ def checkout_success(request, order_number):
                 "user_street_address_2": order.street_address_2,
                 "user_town_or_city": order.town_or_city,
                 "user_county": order.county,
-                "user_eircode": order.eircode,
+                "user_postcode": order.postcode,
                 "user_country": order.country,
             }
 

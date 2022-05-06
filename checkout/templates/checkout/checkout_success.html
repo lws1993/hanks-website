@@ -61,9 +61,9 @@ Checkout
                             <span class="text-muted fs-5">
                                 {{ order.county }}
                             </span><br>
-                            {% if order.eircode %}
+                            {% if order.postcode %}
                                 <span class="text-muted fs-5">
-                                    {{ order.eircode }}
+                                    {{ order.postcode }}
                                 </span><br>
                             {% endif %}
                             <span class="text-muted fs-5">
@@ -85,9 +85,9 @@ Checkout
                 <div class="row mt-4">
                     <div class="col-6 offset-6">
                         <hr class="mx-2">
-                        <p>Total: € {{ order.order_total|intcomma }}</p>
-                        <p>Delivery: € {{ order.home_delivery_cost }}</p>
-                        <h4>Total Price : € {{ order.grand_total|intcomma }}
+                        <p>Total: £ {{ order.order_total|intcomma }}</p>
+                        <p>Delivery: £ {{ order.home_delivery_cost }}</p>
+                        <h4>Total Price : £ {{ order.grand_total|intcomma }}
                         </h4>
                     </div>
                 </div>

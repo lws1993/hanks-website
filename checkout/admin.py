@@ -32,7 +32,7 @@ class OrderAdmin(admin.ModelAdmin):
         "street_address_2",
         "town_or_city",
         "county",
-        "eircode",
+        "postcode",
         "country",
         "date",
         "home_delivery_cost",

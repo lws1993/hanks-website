@@ -13,7 +13,7 @@ class OrderForm(forms.ModelForm):
             "street_address_2",
             "town_or_city",
             "county",
-            "eircode",
+            "postcode",
             "country",
         )
 
@@ -30,7 +30,7 @@ class OrderForm(forms.ModelForm):
             "street_address_2": "Address",
             "town_or_city": "Town or City",
             "county": "County",
-            "eircode": "Eircode",
+            "postcode": "Postcode",
         }
 
         self.fields["full_name"].widget.attrs["autofocus"] = True

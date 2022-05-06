@@ -17,7 +17,7 @@ class UserProfile(models.Model):
                                          null=True, blank=True)
     user_county = models.CharField(max_length=50,
                                    null=True, blank=True)
-    user_eircode = models.CharField(max_length=10,
+    user_postcode = models.CharField(max_length=10,
                                     null=True, blank=True)
     user_country = CountryField(blank_label="Country",
                                 null=True, blank=True)

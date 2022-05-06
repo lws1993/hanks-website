@@ -18,7 +18,7 @@ class UserProfileForm(forms.ModelForm):
             "user_street_address_2": "Address",
             "user_town_or_city": "Town or City",
             "user_county": "County",
-            "user_eircode": "Eircode",
+            "user_postcode": "Postcode",
         }
 
         self.fields["user_contact_number"].widget.attrs["autofocus"] = True
