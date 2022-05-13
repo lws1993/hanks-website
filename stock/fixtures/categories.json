@@ -1,57 +1,98 @@
-[{
-        "pk": 1,
+[
+    {
+      "pk": 1,
+      "model": "stock.category",
+      "fields": {
+        "name": "bandanas",
+        "friendly_name": "Bandanas"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "stock.category",
+      "fields": {
+        "name": "doggy_bags",
+        "friendly_name": "Doggy Bags"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "stock.category",
+      "fields": {
+        "name": "leads",
+        "friendly_name": "Leads"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "stock.category",
+      "fields": {
+        "name": "collars",
+        "friendly_name": "Collars"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "stock.category",
+      "fields": {
+        "name": "harness_bundle",
+        "friendly_name": "Harness_Bundle"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "stock.category",
+      "fields": {
+        "name": "bows",
+        "friendly_name": "Bows"
+      }
+    },
+    {
+      "pk": 7,
+      "model": "stock.category",
+      "fields": {
+        "name": "harnesses",
+        "friendly_name": "Harnesses"
+      }
+    },
+    {
+      "pk": 8,
+      "model": "stock.category",
+      "fields": {
+        "name": "rope_leads",
+        "friendly_name": "Rope Leads"
+      }
+    },
+    {
+      "pk": 9,
+      "model": "stock.category",
+      "fields": {
+        "name": "toys",
+        "friendly_name": "Toys"
+      }
+    },
+    {
+        "pk": 10,
         "model": "stock.category",
         "fields": {
-            "name": "sofas",
-            "display_name": "Sofas"
+            "name": "treats",
+            "display_name": "Treats"
         }
     },
     {
-        "pk": 2,
+        "pk": 11,
         "model": "stock.category",
         "fields": {
-            "name": "chairs",
-            "display_name": "Chairs"
-        }
-    },
-    {
-        "pk": 3,
-        "model": "stock.category",
-        "fields": {
-            "name": "tables",
-            "display_name": "Tables"
-        }
-    },
-    {
-        "pk": 4,
-        "model": "stock.category",
-        "fields": {
-            "name": "sideboards",
-            "display_name": "Sideboards"
-        }
-    },
-    {
-        "pk": 5,
-        "model": "stock.category",
-        "fields": {
-            "name": "lighting",
-            "display_name": "Lighting"
-        }
-    },
-    {
-        "pk": 6,
-        "model": "stock.category",
-        "fields": {
-            "name": "accseeories",
+            "name": "accessories",
             "display_name": "Accessories"
         }
     },
     {
-        "pk": 7,
+        "pk": 12,
         "model": "stock.category",
         "fields": {
-            "name": "new_in",
-            "display_name": "New In"
+            "name": "offers",
+            "display_name": "Offers"
         }
     }
 ]
